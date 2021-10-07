@@ -1,0 +1,215 @@
+.bg-container-home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: flex-start;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  align-items: center;
+
+  width: 100%;
+}
+
+.header-end-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.li-logo {
+  margin-left: 12px;
+  width: 180px;
+  margin-right: auto;
+}
+.logout-btn {
+  border: solid;
+  border-radius: 3px;
+  padding: 4px;
+  width: 100px;
+  height: 30px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #3b82f6;
+  border-color: #3b82f6;
+  height: 30px;
+  border-width: 2px;
+}
+.dt-theme-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+.user-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.home-bottom-container {
+  display: flex;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 90vh;
+  width: 18%;
+}
+.upper-nav-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 18px;
+  margin-top: 0px;
+}
+
+.lower-nav-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.social-icon-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.social-icon {
+  width: 26px;
+  height: 26px;
+  margin: 7px;
+}
+
+.home-bottom-right-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 10px;
+  height: 90vh;
+}
+
+.banner-section {
+  display: flex;
+  flex-direction: column;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  width: 100%;
+  height: 30vh;
+}
+
+.logo-section {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.home-bannerlogo {
+  width: 200px;
+}
+
+.link-item {
+  text-decoration: none;
+  color: black;
+}
+.banner-des {
+  font-size: 22px;
+  width: 50%;
+}
+.banner-btn {
+  background-color: white;
+  border: solid;
+  border-width: 2px;
+  padding: 6px;
+  width: 140px;
+  font-weight: 600;
+}
+
+.content-section {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.home-success-section {
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  background-color: #f1f5f9;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  height: 28px;
+  background-color: transparent;
+  width: 60px;
+  cursor: pointer;
+  padding: 6px;
+}
+.home-search-bar {
+  border: solid;
+  height: 28px;
+  width: 50%;
+  background-color: #ffffff;
+  border-radius: 0px;
+  padding: 4px;
+  border-width: 2px;
+}
+.search-btn {
+  padding: 0px;
+  height: 28px;
+  margin-top: 5px;
+}
+.home-results-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.job-video-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 20px;
+}
+
+.failed-image {
+  height: 44vh;
+}
+.failed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+}
+
+.failed-heading {
+  color: #181818;
+  margin: 2px;
+}
+
+.failed-des {
+  color: #475569;
+  margin: 2px;
+}
+
+.retry-btn {
+  background-color: #4f46e5;
+  color: white;
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+  width: 110px;
+  font-weight: 600;
+  height: 35px;
+  margin: 2px;
+}
